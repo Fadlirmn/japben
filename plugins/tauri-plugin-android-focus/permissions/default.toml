@@ -1,0 +1,8 @@
+[default]
+description = "Default permissions for the plugin"
+permissions = [
+  "allow-check-usage-access",
+  "allow-open-usage-access-settings",
+  "allow-get-installed-apps",
+  "allow-get-usage-stats",
+]

@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+  --bg: #F5F1E8;
+  --surface: #FFFCF6;
+  --surface-muted: #EDE7DB;
+  --text: #22211F;
+  --text-muted: #77736B;
+  --border: #D9D1C3;
+  --accent: #C83D32;
+  --accent-soft: #F1DED8;
+  --success: #47765B;
+  --warning: #B77B35;
+  --danger: #B93A35;
+  --font-display: "Noto Serif JP", "Georgia", serif;
+  --font-ui: "Inter", "Helvetica Neue", sans-serif;
+  --font-japanese: "Noto Sans JP", sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --content-max: 1120px;
+  --nav-height: 72px;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #191A18;
+  --surface: #242521;
+  --surface-muted: #2E2F2A;
+  --text: #F1EDE4;
+  --text-muted: #AAA69C;
+  --border: #393A36;
+  --accent: #E56A5D;
+  --accent-soft: #422B28;
+  --success: #83B895;
+  --warning: #D8A45E;
+  --danger: #E47B73;
+}
